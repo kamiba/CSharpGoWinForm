@@ -52,11 +52,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Email.cs">
+    <Compile Include="Frm_Email.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Email.Designer.cs">
-      <DependentUpon>Email.cs</DependentUpon>
+    <Compile Include="Frm_Email.Designer.cs">
+      <DependentUpon>Frm_Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Home.Designer.cs">
+      <DependentUpon>Frm_Home.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Main.cs">
       <SubType>Form</SubType>
@@ -72,8 +78,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Email.resx">
-      <DependentUpon>Email.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_Email.resx">
+      <DependentUpon>Frm_Email.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Home.resx">
+      <DependentUpon>Frm_Home.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Main.resx">

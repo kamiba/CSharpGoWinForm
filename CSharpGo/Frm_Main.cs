@@ -24,7 +24,8 @@ namespace CSharpGoWinForm
         private void InitFormText2FormTypeNameDic()
         {
             Dictionary<string, string> dicWinformBase = new Dictionary<string, string>();
-            dicWinformBase.Add("Email拆分与合并", "CSharpGoWinForm.Email");
+            dicWinformBase.Add("主页", "CSharpGoWinForm.Frm_Home");
+            dicWinformBase.Add("Email拆分与合并", "CSharpGoWinForm.Frm_Email");
             m_dicFormText2FormTypeName.Add("WinForm基础", dicWinformBase);
         }
         public static Frm_Main GetMainForm()
@@ -136,7 +137,7 @@ namespace CSharpGoWinForm
             
 
             this.dockPanel.DockLeftPortion = 0.17;
-            ShowContent("Email拆分与合并");
+            ShowContent("主页");
         }
 
 
