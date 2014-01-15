@@ -26,6 +26,7 @@ namespace CSharpGoWinForm
             Dictionary<string, string> dicWinformBase = new Dictionary<string, string>();
             dicWinformBase.Add("主页", "CSharpGoWinForm.Frm_Home");
             dicWinformBase.Add("Email拆分与合并", "CSharpGoWinForm.Frm_Email");
+            dicWinformBase.Add("身份证解析", "CSharpGoWinForm.Frm_IDParse");
             m_dicFormText2FormTypeName.Add("WinForm基础", dicWinformBase);
         }
         public static Frm_Main GetMainForm()
