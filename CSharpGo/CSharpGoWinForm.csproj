@@ -82,6 +82,12 @@
     <Compile Include="Frm_IDParse.Designer.cs">
       <DependentUpon>Frm_IDParse.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_WordCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_WordCount.Designer.cs">
+      <DependentUpon>Frm_WordCount.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_Email.resx">
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_IDParse.resx">
       <DependentUpon>Frm_IDParse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_WordCount.resx">
+      <DependentUpon>Frm_WordCount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
