@@ -37,14 +37,14 @@
             // 
             this.textBoxGet.Location = new System.Drawing.Point(38, 18);
             this.textBoxGet.Name = "textBoxGet";
-            this.textBoxGet.Size = new System.Drawing.Size(399, 328);
+            this.textBoxGet.Size = new System.Drawing.Size(464, 328);
             this.textBoxGet.TabIndex = 6;
             this.textBoxGet.Text = "";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(288, 364);
+            this.button1.Location = new System.Drawing.Point(362, 361);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 38);
             this.button1.TabIndex = 5;
@@ -56,9 +56,9 @@
             // 
             this.listBoxIput.FormattingEnabled = true;
             this.listBoxIput.ItemHeight = 12;
-            this.listBoxIput.Location = new System.Drawing.Point(476, 18);
+            this.listBoxIput.Location = new System.Drawing.Point(550, 18);
             this.listBoxIput.Name = "listBoxIput";
-            this.listBoxIput.Size = new System.Drawing.Size(209, 328);
+            this.listBoxIput.Size = new System.Drawing.Size(284, 328);
             this.listBoxIput.TabIndex = 4;
             this.listBoxIput.SelectedIndexChanged += new System.EventHandler(this.listBoxIput_SelectedIndexChanged);
             // 
@@ -66,10 +66,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(722, 420);
+            this.ClientSize = new System.Drawing.Size(846, 420);
             this.Controls.Add(this.textBoxGet);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBoxIput);
+            this.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Name = "Frm_WordCount";
             this.Text = "单词统计";
             this.Load += new System.EventHandler(this.Frm_WordCount_Load);
